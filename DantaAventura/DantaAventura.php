@@ -99,22 +99,27 @@
       </section>
       <!-- End Breadcrumbs Section -->
 
-      <!--==========Menu ingreso de las imgenes============-->
-      <main>
-        <form action="" class="formulario" id="formulario">
-          <div class="formulario__grupo" id="grupo__usuario">
-            <label for="usuario" class="formulario__label">Usuario</label>
-              <div class="formulario__grupo-inpu">
-                <input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="Usuario">
-              </div>
-          </div>
-        </form>
-      </main>
-
+      <!--=======Formulario Antiguo tratando de mejorarlo=======-->
       <form action="DatosImagne.php">
         <section class="inner-page">
           <div class="container">
             <h4>Formulario Cargue imagen</h4>
+        <!--==========Menu ingreso de las imgenes============-->
+<!--         <main>
+        <form action="" class="formulario" id="formulario">
+          <div class="formulario__grupo" id="grupo__usuario">
+              <div class="formulario__grupo-inpu">
+                <input type="text" class="formulario__input control" name="usuario" id="usuario" placeholder="Usuario">
+                <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+              </div>
+              <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numero, letras y guion bajo.</p>
+          </div>
+        </form>
+      </main>-->
+      <!--==========Menu ingreso de las imgenes============-->
+
+
+
             <section>
                 <select
                   name="categoria"
@@ -161,12 +166,13 @@
             </form>-->
 
             <!--=====Teminos y condiciones =====-->
-            
-              <input type="checkbox" name="terminos" id="">
-              <p class="terminos">
-              Estoy de acuerdo con los
-              <a href="#" class="terminos terminos-dos">terminos y condiciones </a>
-              </p>
+            <div class="formulario__grupo" id="grupo__terminos">
+              <label clas="formulario__label" for="">
+                <input type="checkbox" name="terminos" id="terminos">
+                Acepto los<a href="#" class="terminos terminos-dos">Terminos y Condiciones </a>
+              </label>
+            </div>
+            <!--Boton para subir los archivos de Terminos y Condiciones -->
               <input type="Submit" value="Cargar Imagen" class="btn btn-primary" />
             </section>
           </form>
@@ -270,4 +276,5 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/formulario.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
   </body>
