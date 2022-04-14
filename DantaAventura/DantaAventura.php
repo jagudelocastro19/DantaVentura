@@ -99,8 +99,6 @@
       </section>
       <!-- End Breadcrumbs Section -->
 
-      <!--=======Formulario Antiguo tratando de mejorarlo=======-->
-
       <!--=================Inicio del Formulario=======================-->
 
       <form method="POST" action="DatosImagne.php">
@@ -131,7 +129,7 @@
                     class="control"
                   />
 
-              <!--====================Segundo Formato del Formulario========================-->
+              <!--====================Tercer Formato del Formulario========================-->
                   <input
                     type="file"
                     name="Imagen"
@@ -153,7 +151,7 @@
           </div>
         </section>
       </form>
-      <!--====================FIN del Formulario========================-->
+      <!--====================End del Formulario========================-->
     </main>
     <!-- End #main -->
 
