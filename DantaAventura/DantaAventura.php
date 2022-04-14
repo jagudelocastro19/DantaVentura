@@ -100,84 +100,60 @@
       <!-- End Breadcrumbs Section -->
 
       <!--=======Formulario Antiguo tratando de mejorarlo=======-->
-      <form action="DatosImagne.php">
+
+      <!--=================Inicio del Formulario=======================-->
+
+      <form method="POST" action="DatosImagne.php">
         <section class="inner-page">
           <div class="container">
             <h4>Formulario Cargue imagen</h4>
-        <!--==========Menu ingreso de las imgenes============-->
-<!--         <main>
-        <form action="" class="formulario" id="formulario">
-          <div class="formulario__grupo" id="grupo__usuario">
-              <div class="formulario__grupo-inpu">
-                <input type="text" class="formulario__input control" name="usuario" id="usuario" placeholder="Usuario">
-                <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
-              </div>
-              <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numero, letras y guion bajo.</p>
-          </div>
-        </form>
-      </main>-->
-      <!--==========Menu ingreso de las imgenes============-->
+              <!--====================Primer Formato del Formulario========================-->
+                  <select
+                    name="categoria"
+                    id="categoria"
+                    class="control"
+                    aria-placeholder="Categoria"
+                    placeholder="Categoria de la imagen"
+                  >
+                    <option value="null" aria-placeholder="Catee" id="categoria" name="categoria">Seleccione una categoria</option>
+                    <option value="1"><option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                  </select>
+              <!--====================Segundo Formato del Formulario========================-->
+                  <input
+                    type="text"
+                    name="nombre"
+                    size="20"
+                    id="nombre"
+                    placeholder="Nombre de la Imagen"
+                    class="control"
+                  />
 
-
-
-            <section>
-                <select
-                  name="categoria"
-                  id="categoria"
-                  class="control"
-                  aria-placeholder="Categoria"
-                  placeholder="Categoria de la imagen"
-                >
-                  <option value="null" aria-placeholder="Catee">Seleccione una categoria</option>
-                  <option value="1"><option>
-                  <option value="2"></option>
-                  <option value="3"></option>
-                  <option value="4"></option>
-                </select>
-    <!--================Nombre de la Imagen==========================-->
-                <input
-                type="text"
-                name="categoria"
-                id="categoria"
-                placeholder="Nombre de la Imagen"
-                class="control"
-              />
-            <!--Subir Imagen-->
-            
-              <input
-                type="file"
-                name="Imagen"
-                size="20"
-                value="Insertar imagen"
-                id="categoria"
-                placeholder="Nombre de la Imagen"
-                class="control"
-              />
-            <!--<form class="control" action="DatosImagne.php" method="post" enctype="multipart/form-data" placeholder="Subir Imagen">
-              <table>
-                <tr>
-                  <td>
-                    <label for="imagen">Imagen</label>
-                  </td>
-                </tr>
-              </table>
-
-
-            </form>-->
-
-            <!--=====Teminos y condiciones =====-->
-            <div class="formulario__grupo" id="grupo__terminos">
-              <label clas="formulario__label" for="">
-                <input type="checkbox" name="terminos" id="terminos">
-                Acepto los<a href="#" class="terminos terminos-dos">Terminos y Condiciones </a>
-              </label>
-            </div>
-            <!--Boton para subir los archivos de Terminos y Condiciones -->
+              <!--====================Segundo Formato del Formulario========================-->
+                  <input
+                    type="file"
+                    name="Imagen"
+                    size="20"
+                    value="Insertar imagen"
+                    id="categoria"
+                    placeholder="Nombre de la Imagen"
+                    class="control"
+                  />
+              <!--====================Terminos y Condiciones========================-->
+                  <div class="formulario__grupo" id="grupo__terminos">
+                    <label clas="formulario__label" for="">
+                      <input type="checkbox" name="terminos" id="terminos">
+                        Acepto los<a href="#" class="terminos terminos-dos">Terminos y Condiciones </a>
+                    </label>
+                  </div>
+              <!--====================Boton del Formulario========================-->
               <input type="Submit" value="Cargar Imagen" class="btn btn-primary" />
-            </section>
-          </form>
-        </div>
-      </section>
+          </div>
+        </section>
+      </form>
+      <!--====================FIN del Formulario========================-->
     </main>
     <!-- End #main -->
 
