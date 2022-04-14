@@ -101,7 +101,7 @@
 
       <!--=================Inicio del Formulario=======================-->
 
-      <form method="POST" action="DatosImagne.php">
+      <form method="POST" action="formimgs.php">
         <section class="inner-page">
           <div class="container">
             <h4>Formulario Cargue imagen</h4>

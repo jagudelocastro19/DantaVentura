@@ -1,3 +1,15 @@
+<?php
+$categoria = $_POST['categoria'];
+$nombre = $_POST['nombre'];
+$Imagen = $_POST['Imagen'];
+$terminos =$_POST['terminos'];
+
+echo $categoria;
+echo $nombre;
+echo $Imagen;
+echo $terminos;
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
