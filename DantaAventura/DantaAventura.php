@@ -114,10 +114,10 @@
                     placeholder="Categoria de la imagen"
                   >
                     <option value="null" aria-placeholder="Catee" id="categoria" name="categoria">Seleccione una categoria</option>
-                    <option value="1"><option>
-                    <option value="2"></option>
-                    <option value="3"></option>
-                    <option value="4"></option>
+                    <option value="Cavernas">Cavernas<option>
+                    <option value="Cascadas">Cascadas</option>
+                    <option value="Balnearios">Balnearios</option>
+                    <option value="Cultura">Cultura</option>
                   </select>
               <!--====================Segundo Formato del Formulario========================-->
                   <input
