@@ -1,3 +1,4 @@
+<!--Añadido por Sebastian pensando  que asi lo recibiria-->
 <?php
 $categoria = $_POST['categoria'];
 $nombre = $_POST['nombre'];
@@ -9,6 +10,7 @@ echo $nombre;
 echo $Imagen;
 echo $terminos;
 ?>
+<!--End Archivo añadido por sebastian -->
 
 <!DOCTYPE html>
 <html lang="es">
